@@ -4,7 +4,7 @@ public class MayorNumeroImpar {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Ingresa un número N: ");
+        System.out.print("Ingresa un número N:   ");
         int N = scanner.nextInt();
 
         int mayorImpar;
@@ -14,7 +14,7 @@ public class MayorNumeroImpar {
             mayorImpar = N; // Si N es impar, es el mayor impar
         }
 
-        System.out.println("El mayor número impar entre 1 y " + N + " es: " + mayorImpar);
+        System.out.println("El mayor número impar entre 1 y " + N + " es el siguiente numero: " + mayorImpar);
 
         scanner.close();
     }
